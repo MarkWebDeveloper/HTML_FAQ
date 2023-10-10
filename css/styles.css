@@ -1,1 +1,14 @@
 @import url(/css/reset-style.css);
+
+nav {
+    background-color: bisque;
+    width: 20%;
+    height: 100vh;
+    padding: 0 50px 0 10px;
+}
+
+li {
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 3px;
+}
