@@ -6,9 +6,11 @@ nav {
     z-index: 1;
     top: 0;
     transition: 0.5s;
+    border-right: solid;
+    border-color: black;
 }
 
-h1 {
+#nav_title {
     font-size: 24px;
     font-weight: bold;
     margin: 50px 0 50px 0;
