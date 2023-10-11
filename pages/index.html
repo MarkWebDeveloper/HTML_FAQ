@@ -11,11 +11,11 @@
         <nav>
             <ul class="contents">
                 <h1 id="nav_title">Documentación Desarrollo Web</h1>
-                <li><a href="#Front-end_section" class="nav_link">Desarrollo web Front-end</a></li>
-                <li><a href="#HTML_section" class="nav_link">Conceptos básicos de HTML</a></li>
-                <li><a href="#CSS_section" class="nav_link">CSS</a></li>
-                <li><a href="#JavaScript_section" class="nav_link">JavaScript</a></li>
-                <li><a href="#Back-end_section" class="nav_link">Desarrollo web Back-end</a></li>
+                <li class="nav_element"><a href="#Front-end_section" class="nav_link">Desarrollo web Front-end</a></li>
+                <li class="nav_element"><a href="#HTML_section" class="nav_link">Conceptos básicos de HTML</a></li>
+                <li class="nav_element"><a href="#CSS_section" class="nav_link">CSS</a></li>
+                <li class="nav_element"><a href="#JavaScript_section" class="nav_link">JavaScript</a></li>
+                <li class="nav_element"><a href="#Back-end_section" class="nav_link">Desarrollo web Back-end</a></li>
             </ul>
         </nav>
     </header>
@@ -56,6 +56,57 @@
 
             <h2>Entonces, ¿qué es HTML en realidad?</h2>
 
+            <p>HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera. Las etiquetas de encierre pueden hacer de una palabra o una imagen un hipervínculo a otro sitio, se pueden cambiar palabras a cursiva, agrandar o achicar la letra, etc. Por ejemplo, toma la siguiente línea de contenido:</p>
+
+            <code>
+                <p>Mi gato es muy gruñon</p>
+            </code>
+
+            <p>Si quieres especificar que se trata de un párrafo, podrías encerrar el texto con la etiqueta de párrafo (&lt;p&gt;):</p>
+
+            <code>
+                <p>&lt;p&gt;Mi gato es muy gruñon&lt;/p&gt;</p>
+            </code>
+
+            <h2>Anatomía de un elemento HTML</h2>
+
+            <p>Las partes principales del elemento son:</p>
+
+            <img src="/assets/photo/grumpy-cat-small.png" alt="tag structure">
+
+            <p>Las partes principales del elemento son:</p>
+
+            <ol>
+                <li>La etiqueta de apertura: consiste en el nombre del elemento (en este caso, p), encerrado por paréntesis angulares (&lt; &gt;) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento —en este caso, dónde es el comienzo del párrafo—.</li>
+
+                <li>La etiqueta de cierre: es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece dónde termina el elemento —en este caso dónde termina el párrafo—.</li>
+
+                <li>El contenido: este es el contenido del elemento, que en este caso es sólo texto.</li>
+
+                <li>El elemento: la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.</li>
+            </ol>
+
+            <p>Los elementos pueden también tener atributos, que se ven así:</p>
+
+            <img src="/assets/photo/grumpy-cat-attribute-small.png" alt="element attribute">
+
+            <p>Los atributos contienen información adicional acerca del elemento, la cual no quieres que aparezca en el contenido real del elemento. Aquí class es el nombre del atributo y editor-note el valor del atributo. En este caso, el atributo class permite darle al elemento un nombre identificativo, que se puede utilizar luego para apuntarle al elemento información de estilo y demás cosas.</p>
+
+            <p>Un atributo debe tener siempre:</p>
+
+            <ol>
+                <li>Un espacio entre este y el nombre del elemento (o del atributo previo, si el elemento ya posee uno o más atributos).</li>
+
+                <li>El nombre del atributo, seguido por un signo de igual (=).</li>
+
+                <li>Comillas de apertura y de cierre, encerrando el valor del atributo.</li>
+            </ol>
+
+            <p>Los atributos siempre se incluyen en la etiqueta de apertura de un elemento, nunca en la de cierre.</p>
+
+            <code>
+                Nota: el atributo con valores simples que no contengan espacios en blanco ASCII (o cualesquiera de los caracteres " ' ` = &lt &gt) pueden permanecer sin entrecomillar, pero se recomienda entrecomillar todos los valores de atributo, ya que esto hace que el código sea más consistente y comprensible.
+            </code>
 
         </section>
 
