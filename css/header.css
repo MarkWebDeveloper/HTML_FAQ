@@ -1,5 +1,5 @@
 nav {
-    background-color: bisque;
+    background-color: rgb(223, 223, 223);
     width: 300px;
     height: 100vh;
     position: fixed;
@@ -19,6 +19,7 @@ a {
     font-size: 24px;
     font-weight: bold;
     margin: 50px 0 50px 0;
+    text-align: center;
 }
 
 .contents {
