@@ -4,7 +4,7 @@ Factoría F5 Project
 
 ## Video demonstration
 
-<video src="assets/videos/Screen-Capture.mp4" controls title="Title"></video>
+![Screen Capture](assets/videos/screen-capture.gif)
 
 ## Screenshots
 
